@@ -27,8 +27,22 @@
 
 ![Consulta 2-1](consulta2_1.png "Consulta 2-1")
 
-### Consuta No. 3
+### Consulta No. 3
 3. Si se desea obtener los registros cuya identificacion sea mayor o igual a 150, se debe utiliza la clásula `WHERE` que especifica las condiciones que deben reunir los registros que se van a seleccionar: `SELECT * from Cliente WHERE identificacion>=150`
 
 
 ![Consulta 3](consulta3.png "Consulta 3")
+
+###  Consulta No. 4
+4. Se desea obtener los registros cuyos apellidos sean Vanega o Cetina, se debe utulizar el operador `IN` que especifica los registros que se quieren  visualizar de una tabla.
+
+`SELECT apellidos, nombre from Cliente  WHERE apellidos IN('Vanega', 'Cetina')`
+
+![Consulta 4-1](consulta4_1.png "Consulta 4-1")
+
+
+O se puede utilizar el operador OR
+
+`SELECT apellidos, nombre from Clientes WHERE apellidos= 'Vanega' OR apellidos='Cetina'`
+
+![Consulta 4-2](consulta4_2.png "Consulta 4-2")
