@@ -46,3 +46,13 @@ O se puede utilizar el operador OR
 `SELECT apellidos, nombre from Clientes WHERE apellidos= 'Vanega' OR apellidos='Cetina'`
 
 ![Consulta 4-2](consulta4_2.png "Consulta 4-2")
+
+
+
+###  Consulta No. 5
+4. Se desea obtener los registros cuya identificación sea menor de 110 y la ciudad sea Cali, se debe utilizar el operador `AND`
+
+`SELECT * from Cliente WHERE identificacion<=120 AND ciudad='Cali`
+
+![Consulta 5](consulta5.png "Consulta 5")
+
