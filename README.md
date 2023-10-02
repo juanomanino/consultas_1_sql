@@ -19,3 +19,10 @@
 - `SELECT identificacion, nombre, apellido, direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
 
 ![Consulta 1-2](consulta1_2.png "Consulta 1-2")
+
+
+### Consulta No. 2
+
+2. Para visualizar solamente la identificación del Cliente: `SELECT identificacion FROM Cliente`
+
+![Consulta 2-1](consulta2_1.png "Consulta 2-1")
