@@ -79,3 +79,12 @@ O se puede utilizar el operador OR
 `SELECT * from Cliente WHERE nombre LIKE '___a%'`
 
 ![Consulta 8](consulta8.png "Consulta 8")
+
+
+### Consulta No. 9
+
+9. Si se desea obtener los registros cuya identificacion  esté entre el intervalo 110 y 150, se debe utilizar la cláusula 'BETWEEN', que sirve para especificar un intervalo de valores.
+
+`SELECT * from Cliente WHERE identificacion BETWEEN 110 AND 150`
+
+![Consulta 9](consulta9.png "Consulta 9")
