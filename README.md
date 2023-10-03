@@ -50,9 +50,16 @@ O se puede utilizar el operador OR
 
 
 ###  Consulta No. 5
-4. Se desea obtener los registros cuya identificación sea menor de 110 y la ciudad sea Cali, se debe utilizar el operador `AND`
+5. Se desea obtener los registros cuya identificación sea menor de 110 y la ciudad sea Cali, se debe utilizar el operador `AND`
 
 `SELECT * from Cliente WHERE identificacion<=120 AND ciudad='Cali`
 
 ![Consulta 5](consulta5.png "Consulta 5")
 
+
+###  Consulta No. 6
+6. Si se desea obtener los registros cuyos nombres empiezen por la letra 'A', se debe utilizar el operador `LIKE` que utiliza los patrones `%` (todos) y `_` (caracter).
+
+`SELECT from Cliente WHERE nombre LIKE 'A%'`
+
+![Consulta 6](consulta6.png "Consulta 6")
