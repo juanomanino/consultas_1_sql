@@ -146,3 +146,15 @@ O se puede utilizar el operador OR
 
 ### Tabla Pedido
 ![tabla_pedido](tabla_pedido.png "tabla_pedido")
+
+## OPERADOR INNER JOIN
+- Permite obtener datos de dos o más tablas
+- Cuando se realiza la concatenaiń de las tablas, no necesariamente se deben mostrar todos los datos de las tablas
+- Su formate es:
+`SELECT tabla1.campo, tabla2.campo,... FROM tabla_principal INNER JOIN tabla_secundaria ON campo_comun_tabla1=campo_comun_tabla2`
+
+1. Para viulizar los campos identificacion, nombres, apellidos de la tabla CLiente y no_pedido, fecha_compra, fecha_vencimiento y observacion de la tabla Pedido, se debe realiza la siguiente instrucción:
+
+`SELECT Ciente.identificacion, Ciente.nombre, Ciente.apellidos, Pedido.no_pedido, Pedido.fecha_compra, Pedido.fecha_vencimiento, Pedido.observacion FROM Ciente INNER JOIN Pedido ON Cliente.identificacion=Pedido.id_cliente`
+
+![Inner Join](innerjoin1.png "Inner Join")
