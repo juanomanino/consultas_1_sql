@@ -158,3 +158,8 @@ O se puede utilizar el operador OR
 `SELECT Ciente.identificacion, Ciente.nombre, Ciente.apellidos, Pedido.no_pedido, Pedido.fecha_compra, Pedido.fecha_vencimiento, Pedido.observacion FROM Ciente INNER JOIN Pedido ON Cliente.identificacion=Pedido.id_cliente`
 
 ![Inner Join](innerjoin1.png "Inner Join")
+
+2. Para viualizar todos los campos de las tablas Cliente y Pedido donde identificacion sea mayor que 100, se debe realizar la siguiente instrucción:
+`SELECT Ciente.*, Pedido.* FROM Ciente INNER JOIN Pedido ON Ciente.identificacion=Pedido.iden_cliente WHERE Ciente.identificacion>=100`
+
+![Inner Join 2](innerjoin2.png "Inner Join 2")
